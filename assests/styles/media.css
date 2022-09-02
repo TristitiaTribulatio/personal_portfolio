@@ -1,0 +1,145 @@
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .skill {
+        width: 375px;
+    }
+
+    .projects_list .project {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .projects_list .project {
+        height: 300px;
+    }
+
+    .links {
+        flex-flow: column wrap;
+    }
+
+    .link {
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .projects_list {
+        grid-template-columns: 1fr;
+    }
+
+    .projects_list .project {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        max-width: 800px;
+    }
+
+    hr {
+        height: 1px;
+    }
+
+    .info {
+        width: 60%;
+    }
+
+    .anchors {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: 600px;
+    }
+
+    #about .container {
+        flex-flow: column wrap;
+    }
+
+    .info {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .anchors {
+        width: 100%;
+    }
+
+    .anchor { 
+        margin: 5px 0;
+    }
+
+    .skills_list {
+        flex-flow: column wrap;
+    }
+
+    .skill {
+        width: 325px;
+    }
+
+    .skill h3 {
+        font-size: 25px;
+    }
+
+    .skill p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project img {
+        width: 50%;
+    }
+
+    .project_desc {
+        width: 50%;
+    }
+
+    .project_desc a {
+        font-size: 20px;
+    }
+
+    .project_desc p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        max-width: 320px;
+    }
+
+    #skills .container h2, #contacts .container h2 {
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+    }
+
+    .info p {
+        font-size: 15px;
+    }
+
+    .anchor {
+        width: 75%;
+    }
+
+    .projects_list .project {
+        height: 200px;
+    }
+}
